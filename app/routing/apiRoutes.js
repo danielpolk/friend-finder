@@ -1,4 +1,10 @@
-var friends = require("../data/friends")
+//requiring friends exported friends data.
+var actions = require("../data/friends")
+
+//requiring NPM packages.
+var express = require("express");
+var bodyParser = require("body-parser");
+var app = express();
 
 module.exports = function (app) {
     app.get('/api/friends', function (request, response) {
