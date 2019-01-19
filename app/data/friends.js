@@ -14,7 +14,22 @@ var friends = [{
         4,
         1
       ]
-  },
+  }, {
+  "name":"Bob",
+  "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+  "scores":[
+      1,
+      5,
+      2,
+      2,
+      1,
+      4,
+      4,
+      2,
+      1,
+      5
+    ]
+},
 ];
 
 //Uses constructor to be applied to friend
@@ -26,8 +41,8 @@ function Friend(name, imgURL, scores) {
 var actions = {
   addAFriend: function(name, imgURL, scores) {
     var friendVar = new Friend(name, imgURL, scores);
-    // console.log(friendVar);
     friends.push(friendVar);
+    console.log(friends)
     return friendVar;
   },
   getFriends: function() {
