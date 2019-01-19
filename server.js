@@ -1,15 +1,14 @@
-// Dependencies
-// =============================================================
 var express = require("express");
 var bodyParser = require("body-parser");
-
-// Sets up the Express App
-// =============================================================
-var app = express();
+var path = require("path");
 var PORT = process.env.PORT || 3000;
+
+var app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
+
+app.use(express.static(__dirname + '/app/public/style'));
 
 var api_router = require("./app/routing/apiRoutes.js");
 var html_router = require("./app/routing/htmlRoutes.js");
