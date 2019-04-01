@@ -1,6 +1,9 @@
 # FriendFinder
 A compatibility-based "FriendFinder" application that matches users with other people who have filled out the FriendFinder survey similarly.
 
+![](friendfinder.gif)
+
+
 ### DEMO
 Github Repository: https://github.com/danielpolk/friend-finder
 
@@ -29,7 +32,6 @@ Let's say you just relocated to a new city where you don't know anybody. You wan
 3. run *npm install* to install all the dependencies
 4. Then run node server.js in the terminal. Copy _https://localhost:8080_ and paste in your fav browser to see app.
 5. If you want to challenge yourself by building the app from scratch here is a [live demo page](https://friendfinder86.herokuapp.com)
-
 
 
 #### Good luck!
