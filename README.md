@@ -3,6 +3,7 @@ A compatibility-based "FriendFinder" application that matches users with other p
 
 ### DEMO
 Github Repository: https://github.com/danielpolk/friend-finder
+
 Live Heroku Link: https://polk-friend-finder.herokuapp.com/
 
 
